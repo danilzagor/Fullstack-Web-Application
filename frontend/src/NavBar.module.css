@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+.navigationBar{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: "Open Sans", sans-serif;
+}
+.navigationBar h1{
+    color: rgb(92, 103, 199);
+    float: left;
+    
+}
+.links{
+    color: rgb(92, 103, 199);
+    font-size: 25px;
+    display: inline;
+    display: flex;
+    
+}
+
+.links a {
+    text-decoration: none; 
+    color: inherit; 
+    display: inline;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+    font-weight: 650;
+    transition: background-color 0.3s ease;
+  }
+.links a:hover{
+    background-color: rgb(205, 195, 224);
+    transition-delay: 0.1s;
+}
